@@ -6,7 +6,3 @@ def check_balance(file):
         elif char == ")":
             balance = balance - 1
     return balance
-
-
-file = "(()"
-print(check_balance(file))
