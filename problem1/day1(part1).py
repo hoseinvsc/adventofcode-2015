@@ -1,9 +1,10 @@
 # https://adventofcode.com/2015/day/1
 # my input must be read from input.txt 
-my_input = ""
-balance = 0
+file = open("problem1/d.txt","r")
+read_file= file.read()
 
-for char in my_input:
+balance = 0
+for char in read_file:
     if char == "(":
         balance = balance + 1
     elif char == ")":
