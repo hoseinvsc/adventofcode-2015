@@ -1,4 +1,4 @@
-from calculator_module import calculator_rebbon
+from day2_module import calculator_rebbon
 file = open("problem2/day2.txt","r")
 
 sum=0

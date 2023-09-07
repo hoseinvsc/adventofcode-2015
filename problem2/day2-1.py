@@ -1,4 +1,4 @@
-from calculator_module import calc_gift
+from day2_module import calc_gift
 
 file = open("problem2/day2.txt","r")
 
