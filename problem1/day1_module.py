@@ -24,4 +24,5 @@ def balance_founder(file2):
 
         if balance2 == -1:
             print("****************")
+            return counter+1
             break
