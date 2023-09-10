@@ -34,13 +34,3 @@ def calculator_rebbon(dimention):
 
 
 
-
-
-
-def test():
-    x=1+1
-    return 'HHGFF'
-
-
-a=test()
-print (a)
