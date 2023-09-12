@@ -1,3 +1,4 @@
+#This is for part1
 def calc_gift(dimention):
     a = dimention.split('x')
     l = int(a[0])
@@ -15,7 +16,7 @@ def calc_gift(dimention):
     result = min_area + area
     return result
 
-
+#This is for part2
 def calculator_rebbon(dimention):
     g = dimention.split('x')
 
@@ -31,6 +32,3 @@ def calculator_rebbon(dimention):
     hajm = a * b * c
     result = hajm + rebbon_lan
     return result
-
-
-
