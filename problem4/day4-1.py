@@ -1,7 +1,18 @@
-def check_hash(input_hash):
-    if input_hash[:5] == '00000':
-        return True
-    else:
-        return False
-a = check_hash('00000bbb59dde95cd605bea9065f44530')
-print (a)
+import hashlib
+def hashLib(key, zeros = 5):
+    target = '0' * zeros
+    nonce = 0
+    
+    while True:
+        data = key + str(nonce)
+        data = data.encode()
+        hash_hex = hashlib.md5(data).hexdigest()
+        
+        if hash_hex[:zeros] == target:
+            return nonce
+        
+        nonce += 1
+
+key = "yzbqklnj"
+result = hashLib(key)
+print (result)
