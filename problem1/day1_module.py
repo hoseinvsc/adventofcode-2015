@@ -8,7 +8,6 @@ def check_balance(file):
             balance = balance - 1
     return balance
 
-
 #This is for part2
 def balance_founder(file2):
     balance2 = 0
